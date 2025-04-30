@@ -1,26 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --Seasalt: #F8F9FA
+  --AntiFlash: #E9ECEF;
+  --Platinum: #DEE2E6;
+  --FrenchGray: #CED4DA;
+  --FrenchGray2: #ADB5BD;
+  --SlateGray: #6C757D;
+  --OuterSpace: #495057;
+  --Onyx: #343A40;
+  --EerieBlack: #212529;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--AntiFlash);
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-name {
+  color: #343A40;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.date-time {
+  color: #495057;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-box-container {
+  padding: 2rem;
+  column-gap: 1rem;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 0.5rem;
+  background: var(--Platinum);
+}
+
+.app-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  column-gap: 0.5rem;
+  border-radius: 1rem;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 200px;
 }
