@@ -2,27 +2,27 @@ import LinkBox from "./components/LinkBox";
 
 const appList = [
   {
-    img: '/icon-32x32.png',
+    img: '/logo/portainer.png',
     title: "Portainer",
     link: "portainer.devonly.dev"
   },
   {
-    img: '/icon-32x32.png',
+    img: '/logo/nginx.png',
     title: "Nginx Proxy Manager",
     link: "nginx.devonly.dev"
   },
   {
-    img: '/icon-32x32.png',
+    img: '/logo/jenkins.png',
     title: "Jenkins",
     link: "jenkins.devonly.dev"
   },
   {
-    img: '/icon-32x32.png',
+    img: '/logo/sonarqube.png',
     title: "Sonarqube",
     link: "sonarqube.devonly.dev"
   },
   {
-    img: '/icon-32x32.png',
+    img: '/logo/defectdojo.png',
     title: "Defectdojo",
     link: "defectdojo.devonly.dev"
   }
