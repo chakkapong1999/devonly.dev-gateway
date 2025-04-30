@@ -1,4 +1,5 @@
-import LinkBox from "./components/LinkBox";
+import { Fragment } from "react";
+import LinkBox, { LinkBoxProps } from "./components/LinkBox";
 
 const appList = [
   {
@@ -28,12 +29,32 @@ const appList = [
   }
 ]
 
+const bookmarkList: Array<LinkBoxProps> = []
+
 
 export default function Home() {
   return (
-    <div className="app-box-container">
+    <div className="mx-20">
+      <div className="text-3xl text-center font-bold text-[#343A40] mb-2">
+        Applications
+      </div>
+      <div className="app-box-container">
+        {
+          appList.map((app, index) => <LinkBox key={app.title + index} {...app} />)
+        }
+      </div>
       {
-        appList.map((app, index) => <LinkBox key={app.title + index} {...app} />)
+        bookmarkList.length > 0 && 
+        <Fragment>
+          <div className="text-3xl text-center font-bold text-[#343A40] mt-5 mb-2">
+            Bookmarks
+          </div>
+          <div className="app-box-container">
+            {
+              bookmarkList.map((app, index) => <LinkBox key={app.title + index} {...app} />)
+            }
+          </div>
+        </Fragment>
       }
     </div>
   );

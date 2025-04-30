@@ -30,7 +30,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="app-name">
-                <Image src="/icon-chrome-192x192.png" alt="Logo" width={100} height={100}/>
+                <Image src="/icon-chrome-192x192.png" alt="Logo" width={50} height={50}/>
                 <div className="font-bold">
                     devonly.dev
                 </div>

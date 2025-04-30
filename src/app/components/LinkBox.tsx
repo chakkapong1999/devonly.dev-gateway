@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 
-interface LinkBoxProps {
+export interface LinkBoxProps {
     img: string;
     link: string;
     title: string;
