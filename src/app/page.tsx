@@ -26,6 +26,11 @@ const appList = [
     img: '/logo/defectdojo.png',
     title: "Defectdojo",
     link: "defectdojo.devonly.dev"
+  },
+  {
+    img: '/logo/pg.png',
+    title: "PGAdmin",
+    link: "pgadmin.devonly.dev"
   }
 ]
 
