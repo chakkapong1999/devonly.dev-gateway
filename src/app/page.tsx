@@ -29,7 +29,7 @@ const appList = [
   },
   {
     img: '/logo/pg.png',
-    title: "PGAdmin",
+    title: "pgAdmin",
     link: "pgadmin.devonly.dev"
   }
 ]
