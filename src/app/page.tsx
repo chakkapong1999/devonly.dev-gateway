@@ -29,7 +29,18 @@ const appList = [
   }
 ]
 
-const bookmarkList: Array<LinkBoxProps> = []
+const bookmarkList: Array<LinkBoxProps> = [
+  {
+    img: '/logo/propilot.png',
+    title: "Propilot",
+    link: "propilot.vulcan.co.th"
+  },
+  {
+    img: '/logo/humanos.png',
+    title: "HumanOS",
+    link: "backend.humanos.biz"
+  }
+]
 
 
 export default function Home() {
