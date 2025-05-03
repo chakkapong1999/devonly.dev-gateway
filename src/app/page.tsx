@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import LinkBox, { LinkBoxProps } from "./components/LinkBox";
 
-const appList = [
+const appList: Array<LinkBoxProps> = [
   {
     img: '/logo/portainer.png',
     title: "Portainer",
@@ -31,6 +31,16 @@ const appList = [
     img: '/logo/pg.png',
     title: "pgAdmin",
     link: "pgadmin.devonly.dev"
+  },
+  {
+    img: '/logo/uptime-kuma.png',
+    title: "Uptime Kuma",
+    link: "uptime-kuma.devonly.dev"
+  },
+  {
+    img: '/logo/elk.png',
+    title: "Kibana",
+    link: "kibana.devonly.dev"
   }
 ]
 
