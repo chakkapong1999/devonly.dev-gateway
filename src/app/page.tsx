@@ -54,7 +54,12 @@ const bookmarkList: Array<LinkBoxProps> = [
     img: '/logo/humanos.png',
     title: "HumanOS",
     link: "backend.humanos.biz"
-  }
+  },
+  {
+    img: '/logo/it-tools.png',
+    title: "IT-Tools",
+    link: "it-tools.tech"
+  },
 ]
 
 
