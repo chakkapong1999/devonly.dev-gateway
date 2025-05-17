@@ -33,9 +33,9 @@ const appList: Array<LinkBoxProps> = [
     link: "pgadmin.devonly.dev"
   },
   {
-    img: '/logo/uptime-kuma.png',
-    title: "Uptime Kuma",
-    link: "uptime-kuma.devonly.dev"
+    img: '/logo/n8n.png',
+    title: "n8n",
+    link: "n8n.devonly.dev"
   },
   {
     img: '/logo/elk.png',
